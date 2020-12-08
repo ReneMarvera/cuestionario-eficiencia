@@ -1,0 +1,23 @@
+php artisan make:migration create_empresas_table --create=empresas
+php artisan make:migration create_cuestionarios_table --create=cuestionarios
+php artisan make:migration create_apartados_table --create=apartados
+php artisan make:migration create_mensajes_table --create=mensajes
+php artisan make:migration create_preguntas_table --create=preguntas
+php artisan make:migration create_respuestas_table --create=respuestas
+php artisan make:migration create_empresas_respuestas_table --create=empresas_respuestas
+
+php artisan make:model Empresa
+php artisan make:model Cuestionario
+php artisan make:model Apartado
+php artisan make:model Mensaje
+php artisan make:model Pregunta
+php artisan make:model Respuesta
+php artisan make:model EmpresaRespuesta
+
+php artisan make:seeder EmpresaSeeder
+php artisan make:seeder CuestionarioSeeder
+php artisan make:seeder ApartadoSeeder
+php artisan make:seeder MensajeSeeder
+php artisan make:seeder PreguntaSeeder
+php artisan make:seeder RespuestaSeeder
+php artisan make:seeder EmpresaRespuestaSeeder
